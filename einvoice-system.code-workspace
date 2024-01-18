@@ -1,0 +1,210 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "contents/microservices"
+    },
+    {
+      "path": "contents/microservices/user-service"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "formulahendry.code-runner",
+      "MichaelCurrin.auto-commit-msg",
+      "esbenp.prettier-vscode",
+      "aaron-bond.better-comments",
+      "dracula-theme.theme-dracula",
+      "pkief.material-icon-theme",
+      // "streetsidesoftware.code-spell-checker",
+      "christian-kohler.path-intellisense",
+      //   "devcycles.contextive"
+      "james-yu.latex-workshop",
+      "cweijan.vscode-mysql-client2",
+      // "ms-azuretools.vscode-docker",
+      "steoates.autoimport",
+      "kamikillerto.vscode-colorize",
+      "hediet.vscode-drawio",
+      "pomdtr.excalidraw-editor",
+      "ms-python.autopep8",
+      "foxundermoon.shell-format",
+
+      "cutewisp.vscode-nestjs-snippets",
+      "mikestead.dotenv",
+      "shardulm94.trailing-spaces",
+      "usernamehw.errorlens",
+
+
+
+
+      "ms-dotnettools.csdevkit"
+
+      // "redhat.vscode-yaml",
+      // "editorconfig.editorconfig",
+      // "ms-vscode-remote.remote-wsl",
+      // "ms-kubernetes-tools.vscode-kubernetes-tools",
+      // "ms-vscode-remote.remote-containers",
+    ]
+  },
+  "settings": {
+    // =================================================================
+    "editor.wordWrap": "on",
+    // "editor.wordWrap": "off",
+    "git.openRepositoryInParentFolders": "always",
+    // "git.openRepositoryInParentFolders": "never",
+    // =================================================================
+    "files.enableTrash": true,
+    "files.autoSave": "afterDelay",
+    "editor.mouseWheelZoom": true,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // =================================================================
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // =================================================================
+    "workbench.editorAssociations": {
+      "*.drawio.png": "hediet.vscode-drawio",
+      "*.excalidraw.png": "editor.excalidraw",
+      "*.png": "imagePreview.previewEditor",
+      "*.pdf": "latex-workshop-pdf-hook"
+    },
+    // =================================================================
+    "excalidraw.theme": "dark",
+    "hediet.vscode-drawio.resizeImages": null,
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    // "latex-workshop.latex.autoBuild.run": "never",
+    // =================================================================
+    "code-runner.runInTerminal": true,
+    "code-runner.terminalRoot": "/",
+    "code-runner.executorMap": {
+      "python": " clear && cd $dir && python $fileName ",
+      "shellscript": " clear && cd $dir && /bin/bash $fileName ",
+      "typescript": " clear && cd $dir && npm run start:dev "
+    },
+    // =================================================================
+    "workbench.colorTheme": "Dracula",
+    "workbench.preferredDarkColorTheme": "Dracula",
+    // =================================================================
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "nest",
+    "material-icon-theme.folders.color": "#ff79b4",
+    "material-icon-theme.folders.associations": {
+      // "notification": "layout",
+      "common": "Global",
+      "interface": "public",
+      "dto": "Less",
+      "controllers": "review",
+      "infrastructure": "Cluster",
+
+      // "infrastructure": "Server",
+      // "infrastructure": "Database",
+      // "infrastructure": "Container",
+
+
+
+      "core": "core",
+      // "application": "core",
+      // "core": "core",
+      // "core": "core",
+      // "core": "core",
+      // "core": "core",
+      // "core": "core",
+      // "core": "core",
+      // "infrastructure": "Cluster",
+      // "infrastructure": "tools"
+    },
+    "material-icon-theme.files.associations": {
+      "main.ts": "React",
+      "*.module.ts": "nest-module",
+      "*.interface.ts": "Apiblueprint",
+      "*.dto.ts": "Raml",
+      "*.controller.ts": "nest-controller",
+      "*.infrastructure.ts": "nest-controller",
+      "*.repository.ts": "nest-controller",
+      "*.adapter.ts": "nest-controller",
+      "*.entity.ts": "3d",
+      // "*.validator.ts": "nest-decorator",
+      // "*.ts": "typescript",
+      // "**.json": "json",
+      // "fileName.ts": "angular"
+    },
+    // comment
+    //! comment
+    //@ comment
+    //$ comment
+    "better-comments.tags": [
+      {
+        "tag": "",
+        "color": "#FF0000",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "!",
+        "color": "#FFA500",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "@",
+        "color": "#00CED1",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "$",
+        "color": "#FF00FF",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "contextive.path": ".contextive/definitions.yml"
+  }
+}
